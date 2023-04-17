@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>myportfolio</groupId>
-	<artifactId>myportfolio</artifactId>
+	<artifactId>pritam</artifactId>
 	<version>0.0.1</version>
 	<packaging>war</packaging>
 	<name>MyPortfolio</name>
@@ -46,6 +46,7 @@
 	</dependencies>
 
 	<build>
+	    <finalName>pritam</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
